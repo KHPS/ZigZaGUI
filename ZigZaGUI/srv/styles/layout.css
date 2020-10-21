@@ -1,0 +1,70 @@
+section {
+    position:fixed;
+    top:58px;
+    left:0;
+    right:0;
+    bottom:0;
+    margin-bottom:10px;
+    box-shadow: 0px 3px 3px 3px #2e2e2e;
+    overflow:hidden;
+}
+#input-liner {
+    overflow:hidden;
+    padding:0.5%;
+    background-color:#000;
+    color:#00b140;
+}
+#input-liner form {
+    float:left;
+}
+
+#wrap-file-preview {
+    overflow:hidden;
+    height:305px;
+}
+#wrap-files {
+    /*output from zigui-cl.php*/
+    float:left;
+    width:49%;
+    height:300px;
+    border:1px solid #000;
+}
+#wrap-preview {
+    /*output from zigui-cl.php*/
+    float:right;
+    width:49%;
+    height:300px;
+    border:1px solid #000;
+}
+.two-col-wrap {
+    overflow:hidden;
+    height:260px;
+    margin-bottom:5px;
+}
+.collum {
+    float:left;
+    width:48%;
+    padding:0.5%;
+    margin:0.5%;
+    background-color:#2e2e2e;
+    height:235px;
+    overflow-y:scroll;
+}
+
+#input-table {
+    border-collapse:collapse;
+}
+#input-table td {
+    border:1px solid #00b140;
+    color:white;
+    padding:3px;
+}
+
+
+#ziGUI-mod {
+    margin-top:5px;
+    padding:0.5%;
+    color:#00b140;
+    background-color:#000;
+    height:64.5%;
+}

@@ -1,0 +1,13 @@
+#show {
+    display:none;
+    position:fixed;
+    background-color:#000;
+    right:1.2%;
+    width:500px;
+    height:400px;
+    border:1px solid #00b140; 
+    padding:6px;
+}
+#overlay:hover #show {
+    display:block;
+}

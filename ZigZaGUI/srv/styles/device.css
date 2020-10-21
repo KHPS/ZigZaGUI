@@ -1,0 +1,28 @@
+@media only screen and (max-width: 600px) {
+    html {
+        overflow-y:scroll;
+    }
+    .two-col-wrap {
+        display:block;
+        height:100px;
+        overflow-y:scroll;
+        margin-bottom:5px;
+    }
+
+    .collum {
+        display:block;
+        width:98%;
+        height:100px;
+    }
+    #input-table {
+        width:100%;
+    }
+
+    table {
+        display:block;
+        width:100%;
+    }
+    #ziGUI-mod {
+        overflow-y:scroll;
+    }
+}
